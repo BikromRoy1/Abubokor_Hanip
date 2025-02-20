@@ -5266,6 +5266,9 @@ html.lenis body {
 [rs-theme=rs-theme-dark] .rs-about-four {
   background: #171E24;
 }
+[rs-theme=rs-theme-dark] .rs-experience-three {
+  background: #171E24;
+}
 [rs-theme=rs-theme-dark] .rs-services-five {
   background: #171E24;
 }
@@ -13881,7 +13884,7 @@ html.lenis body {
   width: 100px;
   height: 100px;
   border-radius: 10px 10px 10px 10px;
-  background-color: var(--rs-white);
+  background-color: var(--rs-bg-secondary);
   display: inline-flex;
   justify-content: center;
   align-items: center;
