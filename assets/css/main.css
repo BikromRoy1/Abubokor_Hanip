@@ -16300,3 +16300,31 @@ html.lenis body {
 }
 
 /*# sourceMappingURL=main.css.map */
+/*----------------------------------------*/
+/*  news interview
+/*----------------------------------------*/
+.rs-interview-thumb {
+  position: relative;
+}
+.rs-interview-thumb img {
+  border-radius: 10px;
+}
+.rs-interview-thumb::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.6;
+  background: #0000007e;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.rs-interview-thumb .rs-video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
